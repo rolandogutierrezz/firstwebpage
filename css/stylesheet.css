@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+*{box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+  font-family: 'Istok Web', sans-serif;
+  font-size:23px;
+  background-color: #FEFFFE;
+  background-repeat: no-repeat;
+}
+
+.banner{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  color: #000;
+  background-size: cover;
+ 
+}
+
+.index-banner{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, .3)
+    ),url(../images/turtle.jpg);
+  background-size:cover;
+  background-position: 0% 35%;
+  }
+  .fade-in {
+   animation: 1,4s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+.about-banner{
+  background-image: 
+     linear-gradient(
+      rgba(255, 255, 255, 0.2), 
+      rgba(255, 255, 255, 9)
+    ),url(../images/turtle.jpg);
+}
+
+nav ul{
+  display:flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav li{
+  width: 33.33%;
+  text-align: center;
+  border-left: 2px solid #000;
+}
+
+nav li:first-child{
+  border-left:none;
+}
+
+nav a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  transition: .25s;
+}
+
+nav a:hover{
+  color:#b71e03;
+ 
+ }
+
+
+.main-content-header{
+  text-align: center;
+  font-size: 1.7rem;
+  margin: 2rem 0;
+  
+ } 
+ 
+ .loggerhead{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/loggerhead.jpg);
+  background-size:100% 140%; 
+  background-size:cover;
+  background-position: 0% 45%;
+  background-repeat: no-repeat;
+ }
+ 
+ .fade-in {
+   animation: 1,4s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+ .loggerhead{
+   text-align: center;
+ }
+ 
+
+.loggerhead-img {
+  
+  
+}
+ .nab{
+   border-style: solid;
+   border-width: 2px;
+   border-color:#000;
+   background:rgba(239,131,84,.7); 
+     
+ }
+ .greenturtle{
+  background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/greenturtle.jpg);
+  background-size:100% 140%;
+  background-size:cover;
+  background-position: 00% 50%;
+  background-repeat: no-repeat;
+ }
+ .fade-in {
+   animation: 1,4s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+  
+
+ .kempsridley{     
+   background-image: 
+  linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, .4)
+    ),url(../images/kempsridley.jpg);
+/*  background-size: 80% 80%;*/
+  background-size: cover;
+  background-position: 00% 70%;
+  background-repeat:no-repeat;
+  }
+  .fade-in {
+   animation: 1,4s fade-in;
+ }
+ 
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+.kempsridley{
+  text-align: justify;
+  font-size: 20px;
+
+}
+ 
+footer{
+  margin-top: 1rem;
+}
+
+footer p{
+  font-size: .8rem;
+  text-align: center;
+  color: #777;
+}
